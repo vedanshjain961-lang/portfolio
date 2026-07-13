@@ -1,0 +1,21 @@
+{
+  "name": "vedansh-portfolio",
+  "version": "1.0.0",
+  "description": "Vedansh Jain - Web Developer Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "web-developer",
+    "api",
+    "automation"
+  ],
+  "author": "Vedansh Jain",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

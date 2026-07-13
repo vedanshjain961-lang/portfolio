@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedansh Jain | Web Developer</title>
+    <meta property="og:title" content="Vedansh Jain — Web Developer">
+    <meta property="og:description" content="Modern, responsive websites, APIs and automation — built by Vedansh Jain.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/profile.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="description" content="Vedansh Jain — Web developer building modern, responsive websites and APIs.">
+    <meta name="theme-color" content="#050507">
+
+    <!-- Performance: preconnect to fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Preload hero image for faster LCP -->
+    <link rel="preload" href="assets/images/profile.svg" as="image">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Vedansh.dev</h2>
+
+            <button id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="scroll-progress" aria-hidden="true">
+        <span></span>
+    </div>
+
+    <main>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="hero-tag">Creative <span class="typed-text" aria-live="polite"></span></p>
+
+            <h1>Hi, I'm <span>Vedansh Jain</span></h1>
+
+            <h2>Student & Web Developer crafting polished digital experiences</h2>
+
+            <p>
+                I build sleek websites, automation tools, APIs, and data-driven solutions that feel fast,
+                modern, and professional.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="mailto:portfolio+vedanshjain961@gmail.com" class="btn-outline">Contact Me</a>
+                <a href="mailto:portfolio+vedanshjain961@gmail.com" class="btn">Let’s Work Together</a>
+            </div>
+
+            <div class="hero-highlights">
+                <div class="highlight">
+                    <h3>5+</h3>
+                    <p>Projects Delivered</p>
+                </div>
+                <div class="highlight">
+                    <h3>3+</h3>
+                    <p>Years Learning</p>
+                </div>
+                <div class="highlight">
+                    <h3>10+</h3>
+                    <p>Tools & Frameworks</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/images/profile.png"
+                 alt="Vedansh Jain">
+        </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section about">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">
+            I turn ideas into elegant, high-performance digital solutions. Web developer, Python enthusiast, and forever learning.
+        </p>
+
+        <p class="section-copy">
+            I specialize in <span>modern web applications</span>,
+            <span>backend automation</span>,
+            <span>scalable APIs</span>,
+            and <span>smart workflows</span>.
+        </p>
+
+        <div class="stats">
+            <div>
+                <h3>10+</h3>
+                <p>Projects Delivered</p>
+            </div>
+
+            <div>
+                <h3>3+</h3>
+                <p>Years Coding</p>
+            </div>
+
+            <div>
+                <h3>∞</h3>
+                <p>Passion for Code</p>
+            </div>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-copy">
+                <p>
+                    I'm Vedansh Jain — a developer obsessed with crafting digital experiences that are beautiful, blazing-fast, and actually solve real problems. 
+                    Every line of code I write is with one goal: to make your life easier.
+                </p>
+
+                <p>
+                    From sleek landing pages that convert to robust Flask backends that scale, I combine creative problem-solving with technical precision. I don't just build websites—I architect solutions. I love automating the tedious stuff, optimizing for performance, and building APIs that developers want to work with.
+                </p>
+
+                <p>
+                    Whether you're a startup needing a polished web presence, a business drowning in manual workflows, or looking to integrate third-party services seamlessly, I bring a blend of technical expertise, design thinking, and relentless attention to detail. Let's build something that works beautifully.
+                </p>
+            </div>
+
+            <div class="about-highlights">
+                <div class="about-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>Design That Converts</h3>
+                    <p>Beautiful interfaces with intentional UX. Every pixel serves a purpose.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Powerful Backends</h3>
+                    <p>Python, Flask, and APIs built to scale. Clean, maintainable code.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Performance First</h3>
+                    <p>Optimized for speed and responsiveness across all devices. Fast loads, smooth interactions.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-cog"></i>
+                    <h3>Automation Expert</h3>
+                    <p>Eliminate manual workflows. Smart scripts, efficient tools, saved time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <div class="skill-card-content">
+                    <h3>HTML5</h3>
+                    <span class="skill-level">95%</span>
+                    <div class="skill-meter"><span style="--meter-width: 95%;"></span></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <div class="skill-card-content">
+                    <h3>CSS3</h3>
+                    <span class="skill-level">92%</span>
+                    <div class="skill-meter"><span style="--meter-width: 92%;"></span></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <div class="skill-card-content">
+                    <h3>JavaScript</h3>
+                    <span class="skill-level">88%</span>
+                    <div class="skill-meter"><span style="--meter-width: 88%;"></span></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <div class="skill-card-content">
+                    <h3>Python</h3>
+                    <span class="skill-level">90%</span>
+                    <div class="skill-meter"><span style="--meter-width: 90%;"></span></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-server"></i>
+                <div class="skill-card-content">
+                    <h3>Flask</h3>
+                    <span class="skill-level">85%</span>
+                    <div class="skill-meter"><span style="--meter-width: 85%;"></span></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <div class="skill-card-content">
+                    <h3>API Integration</h3>
+                    <span class="skill-level">89%</span>
+                    <div class="skill-meter"><span style="--meter-width: 89%;"></span></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-spider"></i>
+                <div class="skill-card-content">
+                    <h3>Web Scraping</h3>
+                    <span class="skill-level">87%</span>
+                    <div class="skill-meter"><span style="--meter-width: 87%;"></span></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-github"></i>
+                <div class="skill-card-content">
+                    <h3>Git/GitHub</h3>
+                    <span class="skill-level">93%</span>
+                    <div class="skill-meter"><span style="--meter-width: 93%;"></span></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-filter" role="tablist" aria-label="Project filters">
+            <button type="button" class="filter-btn active" data-filter="all" role="tab">All</button>
+            <button type="button" class="filter-btn" data-filter="web" role="tab">Web</button>
+            <button type="button" class="filter-btn" data-filter="api" role="tab">API</button>
+            <button type="button" class="filter-btn" data-filter="automation" role="tab">Automation</button>
+            <button type="button" class="filter-btn" data-filter="scraper" role="tab">Scraper</button>
+        </div>
+
+        <div class="projects-container">
+
+            <!-- Portfolio Website -->
+            <div class="project-card" data-category="web">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/portfolio.webp 1x, assets/images/portfolio@2x.webp 2x">
+                    <source type="image/png" srcset="assets/images/portfolio.png 1x, assets/images/portfolio@2x.png 2x">
+                    <img src="assets/images/portfolio.png"
+                         alt="Portfolio Website"
+                         loading="lazy" decoding="async"
+                         sizes="(max-width:640px) 100vw, 280px">
+                </picture>
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    A modern responsive portfolio website built using
+                    HTML, CSS and JavaScript.
+                </p>
+
+                <div class="project-links">
+                    <a href="https://yourwebsite.com"
+                       target="_blank"
+                       class="btn">
+                        Live Demo
+                    </a>
+
+                    <a href="https://github.com/yourusername/portfolio"
+                       target="_blank"
+                       class="btn secondary">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+
+            <!-- Weather API App -->
+            <div class="project-card" data-category="api">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/weather.webp 1x, assets/images/weather@2x.webp 2x">
+                    <source type="image/png" srcset="assets/images/weather.png 1x, assets/images/weather@2x.png 2x">
+                    <img src="assets/images/weather.png"
+                         alt="Weather API App"
+                         loading="lazy" decoding="async"
+                         sizes="(max-width:640px) 100vw, 280px">
+                </picture>
+
+                <h3>Weather API App</h3>
+
+                <p>
+                    Real-time weather application using APIs and JavaScript.
+                </p>
+
+                <div class="project-links">
+                    <a href="#" class="btn">
+                        Live Demo
+                    </a>
+
+                    <a href="https://github.com/yourusername/weather-app"
+                       target="_blank"
+                       class="btn secondary">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+
+            <!-- Resume Upload Portal -->
+            <div class="project-card" data-category="automation">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/resume.webp 1x, assets/images/resume@2x.webp 2x">
+                    <source type="image/png" srcset="assets/images/resume.png 1x, assets/images/resume@2x.png 2x">
+                    <img src="assets/images/resume.png"
+                         alt="Resume Upload Portal"
+                         loading="lazy" decoding="async"
+                         sizes="(max-width:640px) 100vw, 280px">
+                </picture>
+
+                <h3>Resume Upload Portal</h3>
+
+                <p>
+                    Employees upload resumes and admin manages them using
+                    Flask and SQLite database.
+                </p>
+
+                <div class="project-links">
+                    <a href="#" class="btn">
+                        Live Demo
+                    </a>
+
+                    <a href="https://github.com/yourusername/resume-portal"
+                       target="_blank"
+                       class="btn secondary">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+
+            <!-- Web Scraper -->
+            <div class="project-card" data-category="scraper">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/scraper.webp 1x, assets/images/scraper@2x.webp 2x">
+                    <source type="image/png" srcset="assets/images/scraper.png 1x, assets/images/scraper@2x.png 2x">
+                    <img src="assets/images/scraper.png"
+                         alt="Web Scraper"
+                         loading="lazy" decoding="async"
+                         sizes="(max-width:640px) 100vw, 280px">
+                </picture>
+
+                <h3>Web Scraper</h3>
+
+                <p>
+                    Python-based web scraper using BeautifulSoup for
+                    extracting website data.
+                </p>
+
+                <div class="project-links">
+                    <a href="#" class="btn">
+                        Demo
+                    </a>
+
+                    <a href="https://github.com/yourusername/web-scraper"
+                       target="_blank"
+                       class="btn secondary">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section id="services" class="section">
+        <h2 class="section-title">Services</h2>
+
+        <div class="services-container">
+
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p>Modern and responsive websites.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>API Integration</h3>
+                <p>Integrating third-party APIs into applications.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Python Automation</h3>
+                <p>Automating repetitive tasks efficiently.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Web Scraping</h3>
+                <p>Data extraction using Python and BeautifulSoup.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= RESUME ================= -->
+    <section class="section resume">
+        <h2 class="section-title">Resume</h2>
+
+        <a href="assets/resume/resume.pdf"
+           download
+           class="btn">
+            Download Resume
+        </a>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+            Have a project in mind? I'd love to hear from you. Send me a message and I'll respond as soon as possible.
+        </p>
+
+        <form class="contact-form">
+            <input id="name" type="text" placeholder="Your Name" required aria-label="Your Name">
+            <input id="email" type="email" placeholder="Your Email" required aria-label="Your Email">
+            <textarea id="message" rows="6" placeholder="Your Message (min 10 characters)" required aria-label="Your Message"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div class="form-feedback" aria-live="polite"></div>
+
+        <div class="social-links">
+
+            <a href="https://github.com/vedanshjain961-lang"
+               target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/vedansh-jain-810730374/"
+               target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="mailto:portfolio+vedanshjain961@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    </main>
+
+    <footer>
+        <p>© 2026 Vedansh Jain. All Rights Reserved.</p>
+    </footer>
+
+    <button id="back-to-top" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <div class="modal-overlay" id="contact-modal" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <button class="modal-close" id="modal-close" aria-label="Close contact modal">×</button>
+            <h3 id="modal-title">Email delivery unavailable</h3>
+            <p id="modal-text">Your message was saved locally, but email delivery could not be completed. Use the button below to send it from your email client.</p>
+            <a href="mailto:portfolio+vedanshjain961@gmail.com" id="modal-email-link" class="btn">Open Email Client</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
